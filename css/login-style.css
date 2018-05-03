@@ -1,0 +1,54 @@
+/* Untuk Login Page */
+
+html
+{
+	position: relative;
+}
+
+body
+{
+	font-family: "Comic Sans MS", Snell;
+	margin-bottom: 32px;
+	margin-top: 32px;
+}
+
+section
+{
+	min-height: 128px;
+	width: 100%;
+	padding: 8px;
+	text-align: center;
+}
+.container
+{
+	background-color: #9a9;
+	margin-top: 64px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 2%;
+}
+
+div
+{
+	margin: 10px;
+}
+
+button
+{
+	margin-top: 8px;
+}
+
+.forgot-my-passcode
+{
+	margin-top: 16px;
+}
+
+/* Untuk Login Page */
+
+
+/* Untuk Home Page */
+
+
+
+
+/* Untuk Home Page */

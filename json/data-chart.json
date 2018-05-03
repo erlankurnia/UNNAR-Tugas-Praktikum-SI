@@ -1,0 +1,30 @@
+callback(
+{  
+   "ppd":
+   [  
+      {  
+         "departemen":"Makanan",
+         "pegawai":254
+      },
+      {  
+         "departemen":"Minuman",
+         "pegawai":203
+      },
+      {  
+         "departemen":"Elektronik",
+         "pegawai":111
+      },
+      {  
+         "departemen":"Pakaian",
+         "pegawai":148
+      },
+      {  
+         "departemen":"Keuangan",
+         "pegawai":80
+      },
+      {  
+         "departemen":"Keamanan",
+         "pegawai":123
+      }
+   ]
+})

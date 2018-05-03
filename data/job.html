@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" id="job">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Job-Tugas Praktikum</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="../css/home-style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- Awal Jumbotron -->
+    <div class="jumbotron">
+      <div class="col-sm-1 homeBtnAlign">
+        <a href="../home.html" type="button" class="homeBtn">
+          <span class="glyphicon glyphicon-home"></span>
+        </a>
+      </div>
+
+      <div class="col-sm-8 col-sm-offset-1 text-center">
+        <h1 class="fontSelect">SI Human Resource</h1>       
+      </div>
+
+      <div class="col-sm-1 col-sm-offset-11 aboutBtnAlign">
+        <button href="" type="button" class="aboutBtn btn btn-warning text-right" data-toggle="modal" data-target="#modal-1">
+          <span class="glyphicon glyphicon-info-sign"></span>
+        </button>
+      </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Awal Notifikasi ketika melakukan Submit -->
+
+    <div class="col-sm-12" id="notifSubmition">
+    </div>
+
+    <!-- Akhir Notifikasi ketika melakukan Submit -->
+
+    <!-- Awal area input data -->
+
+    <section class="tittle">
+      <div class="col-sm-12">
+        <h2 class="text-center">Pekerjaan</h2>
+        <hr class="hr1">
+        <hr class="hr2">
+      </div>
+    </section>
+
+    <section class="form-area content">
+      <div class="container">
+
+        <div class="form-group form-input">
+
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-3 col-sm-offset-1">
+              <label class="labelInput" for="jobID">ID Pekerjaan</label>
+            </div>
+            <div class="col-sm-1">
+              <label for="">:</label>
+            </div>            
+            <div class="col-sm-6">
+              <input type="number" class="form-control" placeholder="01**" id="jobID" value="">
+            </div>
+          </div>
+
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-3 col-sm-offset-1">
+              <label class="labelInput" for="jobName">Nama Pekerjaan</label>
+            </div>
+            <div class="col-sm-1">
+              <label for="">:</label>
+            </div>            
+            <div class="col-sm-6">
+              <input type="text" class="form-control" placeholder="nama pekerjaan" id="jobName" value="">
+            </div>
+          </div>
+
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-3 col-sm-offset-1">
+              <label class="labelInput" for="minSalary">Gaji Terendah</label>
+            </div>
+            <div class="col-sm-1">
+              <label for="">:</label>
+            </div>            
+            <div class="col-sm-6">
+              <input type="number" class="form-control" placeholder="500.000" id="minSalary" value="">
+            </div>
+          </div>
+
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-3 col-sm-offset-1">
+              <label class="labelInput" for="maxSalary">Gaji Tertinggi</label>
+            </div>
+            <div class="col-sm-1">
+              <label for="">:</label>
+            </div>            
+            <div class="col-sm-6">
+              <input type="number" class="form-control" placeholder="1.000.000" id="maxSalary" value="">
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-sm-offset-3">
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+              <button type="button" class="btn btn-warning" id="submitBtn">Submit</button>
+            </div>
+          </div>
+
+        </div>        
+      </div>
+    </section>
+
+    <!-- Akhir area input data -->
+
+    <!-- Awal Pop up Informasi -->
+
+    <div class="modal fade" id="modal-1">
+      <div class="modal-dialog">
+        <div class="modal-content popup">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-tittle text-center">Informasi</h3>
+          </div>
+
+          <div class="modal-body">
+            <!-- Deskripsi Halaman ini -->
+            Membuat atau memperbarui data Pekerjaan(ID, Nama, dan Gaji Min&Max).
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Akhir Pop up Informasi -->
+
+    <!-- Awal Footer -->
+    <footer>
+      <div class="container footer-website">
+        <dir class="rows">
+          <p  class="text-center">Copyright &copy; 2018 | <a href="">Catur Adi Noegroho</a>.</p>
+        </dir>        
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.canvasjs.min.js"></script>
+    <script src="../js/data-script.js"></script>
+  </body>
+</html>
