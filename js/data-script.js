@@ -282,27 +282,11 @@ $('#submitBtn').click(function()
 		}
 		else
 		{
-			$('label.labelInput').each(function()
-			{
-				if($(this).attr('for') == inputLabelID)
-				{
-					$('div#notifSubmition').empty();
-					$('#notifSubmition').append('<div class="notifSubmition col-sm-12"><h4 class="text-center"> Semua Form harus tersisi.</h4></div>');
-					$('div.notifSubmition').addClass('notifSubmition notifFailed');
+			$('div#notifSubmition').empty();
+			$('#notifSubmition').append('<div class="notifSubmition col-sm-12"><h4 class="text-center">Semua Form harus tersisi.</h4></div>');
+			$('div.notifSubmition').addClass('notifSubmition notifFailed');
 
-					return false;
-				}
-			});
+			return false;
 		}
 	});
-
-	// Mencetak pada console Browser
-	console.log("Panjang Array : inputFields = " + inputFields.length);
-
-	for(var num = 0; num < inputFields.length; num++)
-	{
-		var printInputFields = "#" + inputFields[num];
-		console.log(inputFields[num] + " dengan label " + labelForId[num] + " : " + $(inputFields[num]).val());
-	}
-	// Mencetak pada console Browser 
 });
