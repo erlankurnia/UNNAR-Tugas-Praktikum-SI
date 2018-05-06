@@ -268,8 +268,6 @@ $('#submitBtn').click(function()
 	// Mendapatkan semua input form yg ada pada halaman html
 	$('input').each(function()
 	{
-		inputLabelID = $(this).attr('id');
-
 		// Mengecek input form telah terisi atau tidak
 		if($(this).val() != "" && $(this).val() != undefined && $(this).val() != null && $(this).val() != 0)
 		{
@@ -277,16 +275,12 @@ $('#submitBtn').click(function()
 			$('div#notifSubmition').empty();
 			$('#notifSubmition').append('<div class="notifSubmition col-sm-12"><h4 class="text-center">Data berhasil disimpan.</h4></div>');
 			$('div.notifSubmition').addClass('notifSubmition notifSuccess');
-
-			return false;
 		}
 		else
 		{
 			$('div#notifSubmition').empty();
 			$('#notifSubmition').append('<div class="notifSubmition col-sm-12"><h4 class="text-center">Semua Form harus tersisi.</h4></div>');
 			$('div.notifSubmition').addClass('notifSubmition notifFailed');
-
-			return false;
 		}
 	});
 });
