@@ -16,13 +16,32 @@ section.content
 
 body .title
 {
-	margin-top: -32px;
+	margin-top: 0px;
 }
 
 
 /* Jumbotron */
 
 /* Navbar Home dan Account */
+
+/* Job, Department, Employee Navbar Span */
+
+#job nav .icon-bar,
+#employ nav .icon-bar,
+#depart nav .icon-bar
+{
+	width: 100%;
+	background-color: #f0ad4e;
+}
+
+#job .navbar-header button,
+#employ .navbar-header button,
+#depart .navbar-header button
+{
+	padding: 3px 3px 3px 3px;
+}
+
+/* Job, Department, Employee Navbar Span */
 
 div.navbar-menu-custom,
 div.navbar-menu-custom span,
@@ -168,7 +187,7 @@ div#notifSubmition
 div.notifSubmition.notifSuccess,
 div.notifSubmition.notifFailed
 {
-	margin: -32px 0 0 0;
+	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	background-color: #22ff22;
 }
