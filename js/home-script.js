@@ -18,3 +18,4 @@ $('button').click(function()
 	/* Fungsi Button Pada Home */
 
 });
+
