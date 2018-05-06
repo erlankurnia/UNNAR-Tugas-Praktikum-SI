@@ -22,22 +22,67 @@
 
     <!-- Awal Jumbotron -->
     <div class="jumbotron">
-      <div class="col-sm-1 homeBtnAlign">
-        <a href="../home.html" type="button" class="homeBtn">
-          <span class="glyphicon glyphicon-home"></span>
-        </a>
-      </div>
+      <!-- Awal Navigasi Bar Home dan Account -->
+      <nav class="navbar navbar-default navbar-custom">
+        <div class="container-fluid">
 
-      <div class="col-sm-8 col-sm-offset-1 text-center">
-        <h1 class="fontSelect">SI Human Resource</h1>       
-      </div>
+          <div class="navbar-menu-custom">
 
-      <div class="col-sm-1 col-sm-offset-11 aboutBtnAlign">
-        <button href="" type="button" class="aboutBtn btn btn-warning text-right" data-toggle="modal" data-target="#modal-1">
-          <span class="glyphicon glyphicon-info-sign"></span>
-        </button>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-account" aria-expanded="true">
+                <span class="sr-only"></span>
+                <span class="glyphicon glyphicon-user"></span>
+              </button>
+
+              <a href="../home.html" type="button" class="homeBtn">
+                <span class="glyphicon glyphicon-home"></span>
+              </a>
+            </div>
+
+            <div class="hidden-xs">
+              <a href="" class="dropdown-toggle accBtn navbar-right" type="button" id="accBtnDropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span class="glyphicon glyphicon-user"></span>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="accBtnDropDown">
+                <li class="dropdown-header">Admin</li>
+                <li role="separator" class="divider"></li>
+                <li><a href="index.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+              </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-account">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="hidden-sm hidden-md hidden-lg hidden-xl"><span class="glyphicon glyphicon-user"></span> Admin</li>
+                <li class="hidden-sm hidden-md hidden-lg hidden-xl"><a href="" class="" data-toggle="modal" data-target="#web-info"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+                <hr class="collapse-menu">
+                <li class="hidden-sm hidden-md hidden-lg hidden-xl"><a href="index.html" class="logoutBtn"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </nav>
+      <!-- Akhir Navigasi Bar Home dan Account -->
+
+      <!-- Awal Title Jumbotron -->
+      <div class="col-sm-12 text-center title-jumbotron">
+        <h1 class="fontSelect">SI Human Resource</h1>
       </div>
-    </div>
+      <!-- Akhir Title Jumbotron -->
+
+      <!-- Awal Navbar About -->
+      <div class="col-sm-12 text-right aboutBtnArea">
+        <div class="aboutBtnAlign hidden-xs">
+          <button href="" type="button" class="aboutBtn btn btn-warning text-right" data-toggle="modal" data-target="#modal-1">
+            <span class="glyphicon glyphicon-info-sign"></span>
+          </button>
+        </div>
+      </div>
+      <!-- Akhir Navbar About -->
+
+     </div>
     <!-- Akhir Jumbotron -->
 
     <!-- Awal Notifikasi ketika melakukan Submit -->
